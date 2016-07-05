@@ -25,7 +25,7 @@ function fizzBuzz(input){
   input = checkInt(input);
   //console.log("Check Int" + input);
 
-  for (var count=1; count<input; count++){
+  for (var count=1; count<=input; count++){
     var output;
     if (count%15===0){
       output = "FizzBuzz";
